@@ -16,4 +16,5 @@ There are two further useful options:
 •	lagcutoff(p) determines the degree of autocorrelation of errors in panel data (default is p=0); and
 •	using barlett specifies that spatial correlation is calculated with a kernel that linearly declines with distance until the cut-off. The default is using a uniform kernel such than the correlation discontinuously jumps to zero at the cut-off. I recommend using the Barlett option.
 
-Lukas Hensel, St Peter's College, Oxford, 18 February 2019
+**Lukas Hensel, St Peter's College, Oxford**
+**18 February 2019**
