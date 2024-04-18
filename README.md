@@ -1,4 +1,7 @@
+![CC Graphics 2024_SpatialCorrelation](https://github.com/csae-coders-corner/Adjusting-standard-errors-for-spatial-correlation/assets/148211163/f8af957d-5b32-467a-a052-66d7a8e8d7b6)
+
 # Adjusting-standard-errors-for-spatial-correlation
+
 Spatial correlation allows for correlation between nearby units – for example, correlation between villages located near each other. Instead of clustering at arbitrary administrative variables, such as state boundaries, you can use Conley standard errors to allow for correlation between units within a set distance of each other. The correlation can be constant within that set distance, or decline linearly with distance between units. 
 
 To correct your standard errors for spatial correlation, you can use the command ols_spatial_HAC programmed by Hsiang (PNAS 2010). (This is currently not available through the Stata repository, so you will have to download it at http://www.fight-entropy.com/2010/06/standard-error-adjustment-ols-for.html .). The command also adjusts for heteroskedasticity, and allows for intertemporal correlation if you use panel data. 
